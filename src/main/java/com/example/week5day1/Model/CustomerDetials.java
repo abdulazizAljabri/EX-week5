@@ -31,6 +31,6 @@ public class CustomerDetials {
     @OneToOne
     @MapsId
     @JsonIgnore
-    @Cascade(CascadeType.ALL)
+//    @Cascade(CascadeType.DETACH)
     private Customer customer;
 }
